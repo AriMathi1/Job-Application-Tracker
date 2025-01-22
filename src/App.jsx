@@ -1,13 +1,19 @@
-import { useState } from 'react'
 
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router'
+import NavBar from './components/NavBar';
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      
+      <BrowserRouter>
+      <NavBar/>
+      <Routes>
+
+      </Routes>
+    
+      </BrowserRouter>
     </>
   )
 }
