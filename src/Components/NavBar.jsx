@@ -37,7 +37,6 @@ function navbar() {
                     </ul>
                 </div>
             </aside>
-
         </>
     )
 }
